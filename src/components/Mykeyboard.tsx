@@ -170,8 +170,8 @@ export default function MyKeyboard() {
         <Button title="." onPress={() => handleNumberPress(".")} />
         <Button title="0" onPress={() => handleNumberPress("0")} />
         <Button
-        //   title="⚽"
-        title="←"
+           title="⚽"
+          // title="←"
           onPress={() => setFirstNumber(firstNumber.slice(0, -1))}
         />
         <Button title="=" isBlue onPress={() => getResult()} />
